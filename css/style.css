@@ -232,6 +232,20 @@ header .header-footer .icon .outer .inner {
    .navbar {
       background: #000 !important;
    }
+
+}
+@media (max-width:767.98px) {
+   :root {
+      font-size: 13px;
+   }
+   .main-title h2::after {
+      font-size: 3rem;
+   }
+   .header-footer .social {
+      flex-direction: column;
+      gap: 5px !important;
+   }
+  
 }
 /* ---------------------  End Header ---------------------*/
 /* ---------------------  Start About ---------------------*/
